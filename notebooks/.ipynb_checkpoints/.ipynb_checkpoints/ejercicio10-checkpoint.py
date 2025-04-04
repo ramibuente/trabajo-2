@@ -64,4 +64,7 @@ for i in rounds: #creo el esquema de la tabla de posiciones de cada ronda
 ranking_final_ordenado=diccionario.ordenarP(jugadores)   #ordeno el ranking final por puntos con la funcion anteriormente creada
 print("-" * 50)
 print('Ranking ronda final')
+print("Jugador   Kills   Asistencias   Muertes  MVP   Puntos")
+print("-" * 50)
 diccionario.imprimir(ranking_final_ordenado) #imprimo el ranking final
+print("-" * 50)
